@@ -1,0 +1,199 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Login */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');*{margin:0;padding:0;box-sizing:border-box}.container{display:flex;justify-content:center;align-items:center;min-height:100vh;background-color:#E2CF81}.container .card{height:500px;width:800px;background-color:#fff;position:relative;box-shadow:0 15px 30px rgba(0,0,0,0.1);font-family: 'Source Sans Pro', sans-serif;border-radius:10px}.container .card .form{width:100%;height:100%;display:flex}.container .card .left-side{width:50%;background-color:#000;height:100% !important;border-top-left-radius:10px;border-bottom-left-radius:10px;overflow:hidden}.left-side img{height:100%;width:100%;object-fit:cover}.container .card .right-side{width:50%;background-color:#efecf2;height:100%;border-top-right-radius:10px;border-bottom-right-radius:10px;padding:20px}.main{display:none}.active{display:block}.register p{display:flex;justify-content:end;font-size:13px;font-weight:600;color:#2a2739}.register p a{text-decoration:none;color:blue;margin-left:3px}.hello{margin-top:40px;text-align:center;color:#2a2739}.hello h4{margin-top:5px}.input_text{position:relative;margin-top:20px}input[type="text"]{height:45px;width:100%;border:none;outline:0;padding:0 10px;font-size:13px;border-radius:10px;border:1px solid #fff}input[type="password"]{height:45px;width:100%;border:none;outline:0;padding:0 10px;font-size:13px;border-radius:10px;padding-right:33px;border:1px solid #fff}.input_text p{margin-top:4px;font-size:13px;margin-left:10px;color:red}.danger{display:none}.input_text p i{margin-right:2px}.fa-eye-slash{position:absolute;top:15px;right:8px;cursor:pointer;color:#727286}.fa-eye{position:absolute;top:15px;right:8px;cursor:pointer;color:#727286}.recovery{margin-top:15px;font-size:13px;text-align:end}.btn{margin-top:15px}.btn button{height:45px;width:100%;border:none;outline:0;background-color:#fe6b68;border-radius:10px;transition:all 0.5s;cursor:pointer;font-size:13px;color:#fff}.btn button:hover{background-color:#f1221e}.right-side hr{margin-top:30px;color:#fff;border: 0;border-top: 1px solid #fff}.or{display:flex;justify-content:center;font-size:13px}.or p{z-index:2;margin-top:-10px;background-color:#efecf2;padding:0 4px}.boxes{margin-top:30px;display:flex;justify-content:center;gap:30px}.boxes span{height:45px;width:60px;border:1px solid #fff;border-radius:8px;display:flex;justify-content:center;align-items:center;overflow:hidden;transition:all 0.5s}.boxes span img{width:30px;cursor:pointer;transition:all 0.5s}.boxes span:hover img{width:35px}.boxes span:hover{border:4px solid #fff}.warning{border:1px solid red !important}@media (max-width:750px){.container .card{max-width: 350px}.container .card .right-side{border-radius:10px;width:100%}.container .card .left-side{display: none}}
+
+
+/* SignUpPage */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#ced3e0;
+}
+.card{
+    height:520px;
+    width:330px;
+    border-radius:12px;
+    background-color:#fff;
+    font-family: 'Poppins', sans-serif;
+    padding:20px;
+}
+.top_div{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.bric{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.bric span{
+    height:20px;
+    width:20px;
+    background-color:#413df7;
+    border-radius:7px;
+    margin-right:3px;
+}
+.top_div p{
+    font-size:12px;
+    font-weight:600;
+    
+}
+.top_div p a{
+    text-decoration:none;
+    color:blue;
+    margin-left:2px;
+}
+.text{
+    margin-top:25px;
+}
+.text h6{
+    margin-top:10px;
+    color:#858d93;
+}
+.input_text{
+    position:relative;
+    margin-top:30px;
+}
+input[type="text"]{
+    width:100%;
+    height:40px;
+    border:none;
+    border-bottom:1px solid #edf1f4;
+    font-size:12px;
+    padding:0 10px;
+    outline:0;
+    caret-color:#a19ffc;
+    color:#a19ffc;
+}
+.input_text label{
+    pointer-events:none;
+    position:absolute;
+    left:0;
+    top:12px;
+    font-size:12px;
+    padding:0 10px;
+    transition:all 0.5s;
+}
+input[type="password"]{
+    width:100%;
+    height:40px;
+    outline:0;
+    border:none;
+    border-bottom:1px solid #edf1f4;
+    font-size:12px;
+    padding:0 10px;
+    padding-right:30px;
+    caret-color:#a19ffc;
+    color:#a19ffc;
+}
+.input_text input:focus~label,.input_text input:valid~label{
+    top:-13px;
+    font-weight:700;
+    color:#a19ffc;
+    left:-5px;
+}
+
+
+.input_text i{ 
+    position:absolute;
+    right:8px;
+    top:12px;
+    cursor:pointer;
+    transition:all 0.5s;
+    color:#a19ffc;
+}
+.input_warning{
+    border-bottom:1px solid red !important;
+}
+.fa-eye{
+     position:absolute;
+    right:8px;
+    top:12px;
+    cursor:pointer;
+    transition:all 0.5s;
+    color:#a19ffc;
+}
+.button{
+    margin-top:30px;
+    
+}
+.button button{
+    width:100%;
+    height:40px;
+    border:none;
+    border-radius:7px;
+    font-size:12px;
+    color:#fff;
+    background-color:#413df7;
+    transition:all 0.5s;
+    cursor:pointer;
+}
+.button button:hover{
+    background-color:#0a078f;
+}
+.button h6{
+    margin-top:10px;
+}
+.button a{
+    text-decoration:none;
+    font-size:12px;
+    font-weight:700;
+    color:blue;
+}
+
+.warning{
+    border-bottom:1px solid red !important;
+}
+
+.logout{
+    margin-left: 90%;
+margin-top: 8px;
+}
